@@ -13,7 +13,7 @@ template: `
 
   <mat-list >
       <mat-list-item *ngFor="let contact of contacts()">
-          <h2 matListItemTitle>{{contact.name}}</h2>
+          <h6 matListItemTitle>{{contact.name}}</h6>
           <p matListItemLine>{{contact.email}}</p>
           <button matListItemMeta mat-icon-button (click)="deleteContact(contact)">
             <mat-icon aria-label="label">delete</mat-icon>

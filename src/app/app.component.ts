@@ -23,6 +23,7 @@ import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
     <mat-toolbar
       color="primary"
       style="display: flex; justify-content: space-between;"
+
     >
       <span>My total contact ({{totalContacts()}})</span>
 
