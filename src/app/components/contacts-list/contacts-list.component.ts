@@ -24,7 +24,7 @@ template: `
 
 
   `,
-  styleUrl: './contacts-list.component.css'
+  styles: []
 })
 export class ContactsListComponent {
 

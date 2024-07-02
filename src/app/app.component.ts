@@ -33,7 +33,7 @@ import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 
     <router-outlet></router-outlet>
   `,
-  styleUrl: './app.component.css',
+  styles: [],
 })
 export class AppComponent {
   contactServicee = inject(ContactsService)
